@@ -6,7 +6,7 @@
   "type": "module",
   "devDependencies": {},
   "scripts": {
-    "dev": "nodemon quotedbSetup.js"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",

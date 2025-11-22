@@ -1,4 +1,4 @@
-import db from "../db/quotedb.db";
+import db from "../db/quotedbSetup.js";
 
 export const getQuote = () => {
     return db.prepare("SELECT * FROM quotes WHERE funVal = 0 ORDER BY RANDOM() LIMIT 1").get();
